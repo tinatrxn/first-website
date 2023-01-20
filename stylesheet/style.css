@@ -1,0 +1,56 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font: large bolder;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.column-home-2 {
+    columns: 2;
+    text-align: center;
+    padding: 2em;
+}
+
+.column-home-1 {
+    text-align: center;
+}
+
+fieldset {
+    height: fit-content;
+    width: 500px;
+    margin: auto;
+}
+
+fieldset div {
+    box-sizing: border-box;
+    width: 500px;
+    padding: 1em;
+    text-align: center;
+}
+
+.column-breeds-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+}

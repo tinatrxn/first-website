@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+
+        <link  href="/practices/first-website/stylesheet/style.css" rel="stylesheet" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+        <title>Intro Meow</title>
+    </head>
+    <body>
+        <div>
+            <ul class="navbar">
+                <li><a href="/practices/first-website/pages/index.html">Home</a></li>
+                <li><a href="/practices/first-website/pages/intro.html">Intro</a></li>
+                <li><a href="/practices/first-website/pages/names.html">Cat Names</a></li>
+                <li><a href="/practices/first-website/pages/breeds.html">Breeds</a></li>
+            </ul>
+        </div>
+        <h1>let's get to know you!</h1>
+        <form action="/form-url" method="post">
+            <fieldset>
+                <legend>hello friend</legend>
+                <div>
+                    <label for="anycats">do you have any cats?</label><br>
+                    <select id="anycats" name="any_cats">
+                        <option value="yescat">yes</option>
+                        <option value="nocat">no</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="catnames">what's your cat name/what name do you want for a cat?</label>
+                    <input type="text" id="catnames" name="cat_names">
+                </div>
+                <div>
+                    <label for="catbreed">what's your cat's breed/what breed do you like?</label>
+                    <input type="text" id="catbreed" name="cat_breed">
+                </div>
+                <div>
+                    <label for="comments">comments about pets in general?</label><br>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="agree" name="agree" value="agree">
+                    <label for="agree">do you agree to give every good bud a pet?</label>
+                </div>
+                <div>
+                    <button type="submit">submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
